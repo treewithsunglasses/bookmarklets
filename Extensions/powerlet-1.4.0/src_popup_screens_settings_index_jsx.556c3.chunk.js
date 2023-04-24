@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpowerlet=self.webpackChunkpowerlet||[]).push([["src_popup_screens_settings_index_jsx"],{"./src/popup/screens/settings/index.jsx":(e,s,t)=>{t.r(s),t.d(s,{default:()=>r});var n=t("./node_modules/react/index.js");function r(){return n.createElement("div",{className:"settings-screen"},"Settings go here")}}}]);

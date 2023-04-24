@@ -1,0 +1,1 @@
+const translationElements=document.querySelectorAll("[data-translation-key]");Array.from(translationElements).forEach((t=>{const e=t.getAttribute("data-translation-key"),n=chrome.i18n.getMessage(e);n&&(t.textContent=n)}));

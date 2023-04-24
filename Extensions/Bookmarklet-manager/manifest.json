@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": "icons/icon-19.png",
+      "default_popup": "popup/popup.html",
+      "default_title": "browser action demo"
+   },
+   "description": "A manager for bookmarklets",
+   "homepage_url": "https://github.com/ahmed-musallam/chrome-bookmarklet-manager",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArJS7zwhviEFiMbz2E615f0/PsUj8Mfe/LZBIel63T5H3m7K+n+L3GFMq/RBkjcceXhF4rS8jMHRK0B2Jz9f7tQQahkeBoYhfuXPQ4vzL2PBUhf8SdMIZbb3VLE7hNS0yYchaeIELuWbdcjM6DLDjO9N1u9MEKd95gEukUF85upx2u9KHQMXH1pL6EzsVas7wCo8Ov8f25lPuGAhzssT+pVVv+eM55NT8+QEfuKUCOl7p4Q3+OCUevTGWdQCE/870p0oX1/sgl14JcSl7aDcc/CYT/m0q5kr+FwVVtRugiTK62hFeJ+q9DP5FwYJdDNeILBijSCtBMghoKMzNRJJZzwIDAQAB",
+   "manifest_version": 2,
+   "name": "Bookmarklet Manager",
+   "options_page": "options/index.html",
+   "permissions": [ "bookmarks", "tabs", "storage" ],
+   "version": "0.0.1"
+}
